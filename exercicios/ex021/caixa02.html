@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Grouping Tags</title>
+	<style type="text/css">
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			background-color: lightgray;
+			margin: 0px;
+		}
+
+		header {
+			background-color: white;
+			text-align: center;
+			padding: 10px;
+			margin: 10px;
+		}
+
+		footer {
+			background-color: grey;
+			text-align: center;
+			margin: 0;
+		}
+
+		nav {
+			text-align: center;
+			background-color: grey;
+			padding: 10px;
+			margin: 10px;
+			box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.490);
+		}
+
+		section {
+			background-color: white;
+			padding: 10px;
+			margin: 10px;
+		}
+
+		#gremio {
+			font-style: italic;
+		}
+
+		article > aside {
+			text-align: center;
+		}
+
+		#lorem {
+			text-decoration: underline;
+		}
+
+		#lorem:hover{
+			color:yellow;
+			border: 10px solid yellow;
+		}
+
+		nav > a {
+			margin-right: 30px;
+			color: white;
+		}
+
+		footer > p:hover {
+			text-decoration: underline;
+		}
+
+		article > p::first-line {
+			color: blue;
+			text-shadow: 10px;
+		}
+
+		main {
+			padding: 10px;
+			margin: 10px;
+			border-radius: 10px 60px;
+			background-color: white;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Meu Site</h1>
+		<nav>
+			<a href="#">link</a>
+			<a href="#">link</a>
+			<a href="#">link</a>
+			<a href="#">link</a>
+		</nav>
+	</header>
+	<main>
+    	<section id="noticias">
+			<article>
+				<h2 id="gremio">Grêmio só me traz tristeza</h2>
+				<p id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<aside>
+					<p>Artigo escrito por Mateus Barbosa Gromowski</p>	
+				</aside>	
+			</article>
+		</section>
+	</main>
+	<footer>
+		<p>Desenvolvido por Mateus Barbosa Gromowski</p>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+	background-color: lightblue;
+	font-family: sans-serif;
+	padding: 10px;
+}
+
+h1 {
+	color: #2B3570;
+}
+
+#principal {
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	color: rgb(73, 109, 71, 1.0);
+}
+
+.basico {
+ color: darkred;
+}
+
+.interm {
+	color: purple;
+}
+
+.avanc {
+ color: green;
+}
+
+.destq {
+	background-color: purple;
+}
