@@ -22,6 +22,7 @@ header {
 	background-color: black;
 	text-align: center;
 	padding: 50px;
+	margin: auto;
 }
 
 header h1 {
@@ -49,6 +50,7 @@ a:hover {
 footer {
 	background-color: black;
 	padding: 10px;
+	margin: auto;
 }
 
 footer p {
