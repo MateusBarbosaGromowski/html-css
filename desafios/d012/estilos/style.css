@@ -1,1 +1,58 @@
 @charset "UTF-8"
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@font-face {
+	font-family: 'Passion One';
+	src: url('../fontes/PassionOne-Regular.ttf') format(truetype);
+
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--titulo: 'Passion One', Arial, sans-serif;
+	--fonte: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	background-color: black;
+	text-align: center;
+	padding: 50px;
+}
+
+header h1 {
+	font-family: var(--titulo);
+	color: white;
+	font-size: 8em;
+	font-variant: small-caps;
+}
+
+header p {
+	color: white;
+	font-size: 1em;
+	font-family: var(--fonte);
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+footer {
+	background-color: black;
+	padding: 10px;
+}
+
+footer p {
+	text-align: center;
+	color: white;
+	font-family: var(--fonte);
+}
