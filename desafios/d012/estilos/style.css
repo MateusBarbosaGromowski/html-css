@@ -2,10 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 @font-face {
 	font-family: 'Passion One';
-	src: url('../fontes/PassionOne-Regular.ttf') format(truetype);
-
+	src: url('../fontes/PassionOne-Bold.ttf') format(truetype);
 }
 
 * {
@@ -13,16 +14,22 @@
 	padding: 0;
 }
 
+html, body {
+	min-height: 100vh;
+}
+
 :root {
 	--titulo: 'Passion One', Arial, sans-serif;
 	--fonte: Verdana, Geneva, Tahoma, sans-serif;
+	--fonte2: 'Sriracha', Arial, Helvetica;
 }
 
 header {
 	background-color: black;
 	text-align: center;
-	padding: 50px;
 	margin: auto;
+	padding: 40px;
+	padding-bottom: 50px;
 }
 
 header h1 {
@@ -30,12 +37,17 @@ header h1 {
 	color: white;
 	font-size: 10vw;
 	font-variant: small-caps;
+	font-weight: normal;
 }
 
 header p {
 	color: white;
 	font-size: 1em;
 	font-family: var(--fonte);
+}
+
+main {
+	font-family: var(--fonte2);
 }
 
 a {
@@ -53,8 +65,45 @@ footer {
 	margin: auto;
 }
 
-footer p {
+footer > p {
 	text-align: center;
 	color: white;
 	font-family: var(--fonte);
+}
+
+.imagem p {
+	color: white;
+	background-color: #000000a1;
+	display: inline-block;
+	line-height: 2em;
+	font-family: var(--fonte2);
+	font-size: 3.5vw;
+	padding: 15px;
+
+}
+
+#img01 {
+	background: black url('../imagens/background001.jpg') center center no-repeat fixed;
+	background-size: cover;
+	padding: 50px;
+	padding-left: 15px;
+}
+
+#img02 {
+	background: black url('../imagens/background002.jpg') center center no-repeat fixed;
+	background-size: cover;
+	padding: 50px;
+	padding-left: 15px;
+}
+
+.normal {
+	font-family: var(--fonte2);
+	font-size: 3.5vw;
+	padding: 15px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+section {
+	line-height: 2em;
 }
