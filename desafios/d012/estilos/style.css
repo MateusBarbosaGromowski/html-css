@@ -75,35 +75,26 @@ footer > p {
 	color: white;
 	background-color: #000000a1;
 	display: inline-block;
-	line-height: 2em;
 	font-family: var(--fonte2);
-	font-size: 3.5vw;
-	padding: 15px;
+}
 
+.imagem {
+	box-shadow: inset 1px 1px 20px;
 }
 
 #img01 {
 	background: black url('../imagens/background001.jpg') center center no-repeat fixed;
 	background-size: cover;
-	padding: 50px;
-	padding-left: 15px;
 }
 
 #img02 {
 	background: black url('../imagens/background002.jpg') center center no-repeat fixed;
 	background-size: cover;
-	padding: 50px;
-	padding-left: 15px;
-}
-
-.normal {
-	font-family: var(--fonte2);
-	font-size: 3.5vw;
-	padding: 15px;
-	padding-top: 50px;
-	padding-bottom: 50px;
 }
 
 section {
 	line-height: 2em;
+	padding: 50px;
+	font-size: 3.5vw;
+	font-family: var(--fonte2);
 }
