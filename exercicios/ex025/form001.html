@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário</title>
+	<style type="text/css">
+		body {
+			font-family: Arial;
+			background-color: lightcyan;
+		}
+
+		div {
+			background-color: #00ffff4a;
+			padding: 10px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			border-radius: 10px;
+		}
+
+
+	</style>
+</head>
+<body>
+	<main>
+		<div>	
+			<h1>Meu primeiro formulário</h1>
+			<form action="teste.html" autocomplete="off">
+				<p><label for="inome">Nome: </label> 
+					<input type="text" name="nome" id="inome">
+				</p>
+				<p>
+					<label for="isobrenome">Sobrenome: </label> 
+					<input type="text" name="sobrenome" id="isobrenome">
+				</p>
+				<p>
+					<label for="email">E-Mail: </label>
+					<input type="email" name="email "id="email">
+				</p>
+				<p>
+					<label for="senha">Senha: </label>
+					<input type="password" name="senha" id="senha">
+				</p>
+				<p>
+					<input type="submit" value="Enviar">
+				</p>
+			</form>
+		</div>
+	</main>
+</body>
+</html>
