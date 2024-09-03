@@ -27,21 +27,21 @@
 	<main>
 		<div>	
 			<h1>Meu primeiro formulário</h1>
-			<form action="teste.html" autocomplete="off">
+			<form action="cadastro.php" autocomplete="off" method="POST">
 				<p><label for="inome">Nome: </label> 
-					<input type="text" name="nome" id="inome">
+					<input required type="text" name="nome" id="inome" placeholder="Insira seu nome:">
 				</p>
 				<p>
 					<label for="isobrenome">Sobrenome: </label> 
-					<input type="text" name="sobrenome" id="isobrenome">
+					<input required type="text" name="sobrenome" id="isobrenome" placeholder="Insira seu sobrenome: ">
 				</p>
 				<p>
 					<label for="email">E-Mail: </label>
-					<input type="email" name="email "id="email">
+					<input required type="email" name="email "id="email" placeholder="exemplo@exemplo.com">
 				</p>
 				<p>
 					<label for="senha">Senha: </label>
-					<input type="password" name="senha" id="senha">
+					<input required type="password" name="senha" id="senha" placeholder="Insira sua senha:" minlength="8" maxlength="13">
 				</p>
 				<p>
 					<input type="submit" value="Enviar">
