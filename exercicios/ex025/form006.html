@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulário</title>
+</head>
+<body>
+	<form action="cadastro.php" autocomplete="off" method="post">
+		<p>
+			<label for="cor">Cor:</label>
+			<input type="color" id="cor" value="#0F52BA">
+		</p>
+		<p>
+			<label for="range">Satisfação do cliente:</label>
+			<input type="range" id="range" min="1" max="5">
+		</p>
+		<p>
+			<label for="arquivo">Envie um arquivo:</label>
+			<input type="file" id="arquivo">
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+			<input type="reset" value="Limpar">
+		</p>
+	</form>
+</body>
+</html>
